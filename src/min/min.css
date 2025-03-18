@@ -14,7 +14,9 @@ body {
 }
 
 header {
-  width: 100vw;
+  width: 100%;
+  box-sizing: border-box;
+
   position: fixed;
   top: 0;
   left: 0;
@@ -31,7 +33,8 @@ header {
 }
 
 .categories {
-  gap: 100px;
+  display: flex;
+  gap: 20px;
 }
 
 .name {
@@ -41,6 +44,7 @@ header {
 
 .categories span {
   font-weight: 800;
+  cursor: pointer;
 }
 
 h1 {
