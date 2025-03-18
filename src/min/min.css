@@ -80,3 +80,46 @@ h1 {
   width: 650px;
   height: 650px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+h2 {
+  padding-left: 20px;
+  margin: 0;
+  width: 100%;
+  background-color: var(--green1);
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.galleryHeader {
+  box-sizing: border-box;
+  height: 150px;
+  width: 100dvw;
+}
+
+#GALLERY {
+  margin-top: 20px;
+}
+
+.galleryDivs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.galleryDivs div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.galleryDivs img {
+  width: 400px;
+  height: 400px;
+}
