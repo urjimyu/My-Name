@@ -35,3 +35,44 @@ hr {
 .profile_text {
   margin: 2em;
 }
+
+p {
+  margin: 20px;
+}
+
+.subTitle {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.div {
+  border: 1px solid gray;
+  padding: 0%;
+  margin-top: 50px;
+}
+
+.hobby {
+  background-color: bisque;
+}
+
+.hobbyContent {
+  font-size: 22px;
+}
+
+.subTitle {
+  padding-top: 20px;
+}
+
+.hobbyContent {
+  display: flex;
+  justify-content: center;
+}
+
+.hobbyContent > div {
+  margin: 1em;
+}
+
+.hobbyContent > div > p {
+  text-align: center;
+}
