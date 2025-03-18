@@ -19,11 +19,12 @@ header {
   top: 0;
   left: 0;
 
-  height: 30px;
+  height: 50px;
   padding: 10px 20px;
 
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   background-color: var(--yellow1);
   font-size: 20px;
@@ -52,7 +53,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .aboutDiv {
@@ -72,6 +73,6 @@ h1 {
 }
 
 .profile-img {
-  width: 750px;
-  height: 750px;
+  width: 650px;
+  height: 650px;
 }
