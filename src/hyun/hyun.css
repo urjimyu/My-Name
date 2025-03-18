@@ -10,13 +10,12 @@ body {
   font-family: 'Ownglyph_corncorn-Rg';
 }
 
-hr {
+.profile > hr {
   border: 2px solid gray;
-  padding: 0%;
   margin: 0%;
 }
 
-.title {
+.profile > h1 {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
@@ -25,13 +24,41 @@ hr {
   margin: 0%;
 }
 
-.profile {
+.profileContent {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 1em;
+  padding: 20px;
 }
 
-.profile_text {
-  margin: 2em;
+.profile p {
+  margin: 20px;
+}
+
+.hobby > h1 {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hobby {
+  background-color: bisque;
+}
+
+.hobby p {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.hobbyContent {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hobbyContent > div {
+  margin: 20px;
 }
